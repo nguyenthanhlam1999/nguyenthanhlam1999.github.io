@@ -1,0 +1,192 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    position: relative;
+}
+#header{
+    background: #203e48;
+    min-width: 100%;
+}
+#header .logo{
+    max-width: 29%;
+    height: auto;
+    border: 3px solid #f39501;
+    border-radius: 45%;
+    overflow: hidden;
+    margin: 21px;
+}
+#header ul.introduce li{
+    padding: 12px 52px;
+    position: relative;
+}
+#header ul.introduce li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+#header ul.introduce li.gender:after{
+    font-family: "FontAwesome";
+    content: "\f2be";
+    position: absolute;
+    left: 14px;
+    font-size: 23px;
+    top: 9px;
+    color: #fa9401;
+}
+#header ul.introduce li.date-of-brith:after{
+    font-family: "FontAwesome";
+    content: "\f1fd ";
+    position: absolute;
+    left: 14px;
+    font-size: 23px;
+    top: 9px;
+    color: #fa9401;
+}
+#header ul.introduce li.number-phone:after{
+    font-family: "FontAwesome";
+    content: "\f098 ";
+    position: absolute;
+    left: 14px;
+    font-size: 23px;
+    top: 9px;
+    color: #fa9401;
+}
+#header ul.introduce li.gmail:after{
+    font-family: "FontAwesome";
+    content: "\f0e0 ";
+    position: absolute;
+    left: 14px;
+    font-size: 23px;
+    top: 9px;
+    color: #fa9401;
+}
+#header ul.introduce li.location:after{
+    font-family: "FontAwesome";
+    content: "\f041 ";
+    position: absolute;
+    left: 14px;
+    font-size: 23px;
+    top: 9px;
+    color: #fa9401;
+}
+.introduce #name h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 12px;
+    color: white;
+}
+.introduce #name h4{
+    text-transform: uppercase;
+    font-size: 23px;
+    padding-top: 12px;
+    color: #fa9401;
+}
+#gt{
+    padding: 0% 12% 3% 0%;
+    border-bottom: 3px solid #fa9401
+}
+.target h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 12px 0px 12px 0px;
+    color: white;
+}
+.target p{
+    line-height: 35px;
+    color: white;  
+    padding-left: 15px;
+    position: relative;
+}
+.target p::after{
+    font-family: "FontAwesome";
+    content: "\f061";
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    font-size: 10px;
+}
+#content .education {
+    padding: 42px 0px 36px 0px
+}
+#content .education h3{
+    font-size: 40px;
+    color:  #fa9401;
+}
+.education-write{
+    padding-top: 30px;
+}
+#content .time{
+    background: #203e48;
+    color: white;
+}
+#content .time h3{
+    padding: 12px;
+}
+#content .time span{
+    padding-left: 25px;
+}
+#content .describe h3{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 0px 12px 0px;
+}
+#content .describe p{
+    color: black;
+    padding: 12px 0px 12px 0px;
+}
+#bg{
+    background: #34495e;
+}
+#content-skill{
+    min-width: 100%;
+}
+ #content-skill .title h3{
+    font-size: 30px;
+    color: #fa9401;
+    text-align: center;
+    padding: 12px;
+    
+}
+#content-skill .skill h3{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+#back-top {
+    /* width: 5%; */
+    position: fixed;
+    bottom: 7px;
+    right: 7px;
+    padding: 18px;
+    border-radius: 77%;
+    border: none;
+    background: #cecece;
+    cursor: pointer;
+}
+#title{
+    padding: 42px 0px 36px 0px;
+}
+#cart-title{
+    background: #34495e; ;
+}
+#hobby #title h3{
+    font-size: 40px;
+    color: #fa9401;
+
+}
+#hobby .icon{
+    color:  #fa9401;
+    padding-bottom: 6px;
+    font-size: 40px;
+    padding: 12px;
+}
+#hobby #cart-title p{
+    color: white;
+    font-size: 23px;
+    padding: 12px;
+}
+.col-md-2{
+    text-align: center;
+}
